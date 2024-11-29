@@ -80,7 +80,11 @@ For Visualization, i exported the dataset in csv file to PowerBI and i created a
 
 # Communication and Interpretation
 
+The Netflix Dashboard, built using data extracted from The Movie Database (TMDb), provides an interactive and visually engaging analysis of Netflix’s content catalog. The dataset includes attributes like type, title, director, cast, country, genres, release year, duration, and ratings, offering a comprehensive view of Netflix’s offerings.
 
+Key insights include the dominance of movies over TV shows, with genres like Drama, Comedy, and Thriller leading in popularity. A geographic analysis highlights the United States as the top content contributor, followed by countries like India and the UK, emphasizing Netflix’s global diversity. Release year trends reveal a surge in recent additions, reflecting Netflix’s aggressive expansion. Duration analysis shows most movies fall within the 90–120 minute range, while TV Shows typically have 1–3 seasons. Rating trends indicate Netflix caters to audiences of all ages, with a significant portion targeting mature viewers.
+
+Interactive visuals, such as pie charts, bar graphs, and maps, make the dashboard easy to navigate. Filters for genre, country, and year enhance user engagement. The dashboard serves multiple purposes, from helping Netflix refine its content strategy to guiding competitors, academic researchers, and entertainment enthusiasts. By turning raw data into actionable insights, the project demonstrates the power of analytics in the streaming industry.
 
 
 
