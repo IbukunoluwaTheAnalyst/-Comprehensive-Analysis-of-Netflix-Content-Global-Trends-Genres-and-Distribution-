@@ -13,36 +13,6 @@ Behind the scenes, Netflix isn’t just about binging—it’s also a treasure t
 
 This project focuses on analyzing and visualizing Netflix’s content catalog using Power BI. The dashboard highlights key metrics such as the number of movies and TV shows, genres, release years, directors, and global content distribution. It also explores trends in total duration.
 
-# Dataset Details
-
-File Name: netflix_dataset.csv
-
-Columns:
-
-Show ID: Unique identifier for each title.
-
-Type: Type of content (Movie or TV Show).
-
-Title: Name of the show or movie.
-
-Director: Name of the director.
-
-Cast: Main actors/actresses.
-
-Country: Country where the show or movie was produced.
-
-Date Added: Date the title was added to Netflix.
-
-Release Year: Year the content was released.
-
-Rating: Content rating.
-
-Duration: Duration of content (Minutes for Movies or Seasons for TV Shows).
-
-Listed in: Genres of the content.
-
-Description: Short summary of the content.
-
 # Research Questions
 
 Content Variety: What is the distribution of Movies vs. TV Shows on Netflix?
@@ -62,19 +32,39 @@ An analysis like this can bridges the gap between data and entertainment, offeri
 
 # Analysis Process
 Data Analysis requires a structured approach to ensure accurate and actionable insights. This process involves several key stages, each critical to the successful interpretation of available information. The methodology employed in this instance comprised the following steps:
-# Data Gathering/Collection
+1. Data Gathering/Collection
+Introduction to the Dataset
+
+The dataset used for this project was obtained from The Movie Database (TMDb), focusing specifically on Netflix Movies and TV Shows. Using Python and the BeautifulSoup library for web scraping, combined with the TMDb API key, I extracted detailed information about Netflix’s content catalog. This approach allowed me to gather comprehensive and up-to-date data on a variety of attributes for each title.
+
+Data Attributes Extracted
+
+Show ID: A unique identifier for each title.
+Type: Specifies whether the content is a Movie or TV Show.
+Title: The name of the show or movie.
+Director: The director(s) of the movie or TV show.
+Cast: Leading actors and actresses featured in the content.
+Country: The country where the show or movie was produced.
+Date Added: The date when the title was added to Netflix’s catalog.
+Release Year: The year the content was originally released.
+Rating: The content rating (e.g., PG, R, TV-MA) indicating its suitability for different audiences.
+Duration: The runtime for Movies (in minutes) or the number of Seasons for TV Shows.
+Listed in: Genres or categories the content falls under, such as Drama, Comedy, or Thriller.
+Description: A short synopsis or overview of the content.
 
 
-# Data Preparation
-Handle missing values (e.g., for columns like Director, Cast, and Country).
+2. Data Preparation
+
+Handled missing values for columns like Director, Cast, and Country.
+
 Create calculated fields:
 Year Added: Extract the year from the Date Added column.
 Duration in Minutes: Convert Duration into numerical values for Movies.
 
-# Data Modeling
+3. Data Modeling
 Create relationships between relevant columns for better analysis.
 
-# Dashboard Visualization
+4. Dashboard Visualization
 For Visualization, i exported the dataset in csv file to PowerBI and i created a dashboard for better display and for further explanation on the analysis.
 ![Netflix dashboard_page-0001](https://github.com/user-attachments/assets/746625f7-dfcc-494a-9d78-4712b062a480)
 
