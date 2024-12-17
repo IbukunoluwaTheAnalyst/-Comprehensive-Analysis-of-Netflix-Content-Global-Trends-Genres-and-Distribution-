@@ -32,28 +32,43 @@ An analysis like this can bridges the gap between data and entertainment, offeri
 
 # Analysis Process
 Data Analysis requires a structured approach to ensure accurate and actionable insights. This process involves several key stages, each critical to the successful interpretation of available information. The methodology employed in this instance comprised the following steps:
-1. Data Gathering/Collection
+# 1. Data Gathering/Collection
 Introduction to the Dataset
 
 The dataset used for this project was obtained from The Movie Database (TMDb), focusing specifically on Netflix Movies and TV Shows. Using Python and the BeautifulSoup library for web scraping, combined with the TMDb API key, I extracted detailed information about Netflix’s content catalog. This approach allowed me to gather comprehensive and up-to-date data on a variety of attributes for each title.
+![code snippet](https://github.com/user-attachments/assets/e322200b-5d42-4b29-81c5-a21ee7a38fef)
+**Code Snippet for Extraction**
 
 Data Attributes Extracted
 
-Show ID: A unique identifier for each title.
-Type: Specifies whether the content is a Movie or TV Show.
-Title: The name of the show or movie.
-Director: The director(s) of the movie or TV show.
-Cast: Leading actors and actresses featured in the content.
-Country: The country where the show or movie was produced.
-Date Added: The date when the title was added to Netflix’s catalog.
-Release Year: The year the content was originally released.
-Rating: The content rating (e.g., PG, R, TV-MA) indicating its suitability for different audiences.
-Duration: The runtime for Movies (in minutes) or the number of Seasons for TV Shows.
-Listed in: Genres or categories the content falls under, such as Drama, Comedy, or Thriller.
-Description: A short synopsis or overview of the content.
+1. Show ID: A unique identifier for each title.
 
+2. Type: Specifies whether the content is a Movie or TV Show.
 
-2. Data Preparation
+3. Title: The name of the show or movie.
+
+4. Director: The director(s) of the movie or TV show.
+
+5. Cast: Leading actors and actresses featured in the content.
+
+6. Country: The country where the show or movie was produced.
+
+7. Date Added: The date when the title was added to Netflix’s catalog.
+
+8. Release Year: The year the content was originally released.
+
+9. Rating: The content rating (e.g., PG, R, TV-MA) indicating its suitability for different audiences.
+
+10. Duration: The runtime for Movies (in minutes) or the number of Seasons for TV Shows.
+
+11. Listed in: Genres or categories the content falls under, such as Drama, Comedy, or Thriller.
+
+12. Description: A short synopsis or overview of the content.
+
+![WhatsApp Image 2024-12-17 at 14 34 35_9a2a5c05](https://github.com/user-attachments/assets/6551ad6d-1de6-475d-9805-9dae5cd300a8)
+**A picture showing the extraced data**
+
+# 2. Data Preparation
 
 Handled missing values for columns like Director, Cast, and Country.
 
@@ -61,10 +76,10 @@ Create calculated fields:
 Year Added: Extract the year from the Date Added column.
 Duration in Minutes: Convert Duration into numerical values for Movies.
 
-3. Data Modeling
+# 3. Data Modeling
 Create relationships between relevant columns for better analysis.
 
-4. Dashboard Visualization
+# 4. Dashboard Visualization
 For Visualization, i exported the dataset in csv file to PowerBI and i created a dashboard for better display and for further explanation on the analysis.
 ![Netflix dashboard_page-0001](https://github.com/user-attachments/assets/746625f7-dfcc-494a-9d78-4712b062a480)
 
